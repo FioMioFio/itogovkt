@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+    <div class="scene">
+      <div class="leyer leber_vg"></div>
+
+    </div>
+    <header>
+      <div class="linia">
+        <div>
+          <p id='left_text' data-tippy-content="Мужская">
+            <span class="men"><?xml version="1.0" encoding="UTF-8"?>
+              <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="25" height="25"><path d="M12,12A6,6,0,1,0,6,6,6.006,6.006,0,0,0,12,12ZM12,2A4,4,0,1,1,8,6,4,4,0,0,1,12,2Z"/><path d="M12,14a9.01,9.01,0,0,0-9,9,1,1,0,0,0,2,0,7,7,0,0,1,14,0,1,1,0,0,0,2,0A9.01,9.01,0,0,0,12,14Z"/></svg>
+              </span>
+          Men</p>
+        <p id='middle_text' data-tippy-content="Женская">
+        <span class="women"><?xml version="1.0" encoding="UTF-8"?>
+          <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="25" height="25"><path d="M12,12A6,6,0,1,0,6,6,6.006,6.006,0,0,0,12,12ZM12,2A4,4,0,1,1,8,6,4,4,0,0,1,12,2Z"/><path d="M12,14a9.01,9.01,0,0,0-9,9,1,1,0,0,0,2,0,7,7,0,0,1,14,0,1,1,0,0,0,2,0A9.01,9.01,0,0,0,12,14Z"/></svg>
+          </span>
+          Women</p>
+        <p id='right_text' data-tippy-content="О нас">
+        <button data-target ="#linia2" data-mt-duration="1200"><span class="about"><?xml version="1.0" encoding="UTF-8"?>
+          <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="25" height="25"><path d="M19,1H5C2.24,1,0,3.24,0,6v12c0,2.76,2.24,5,5,5h14c2.76,0,5-2.24,5-5V6c0-2.76-2.24-5-5-5ZM5,3h14c1.65,0,3,1.35,3,3v2H2v-2c0-1.65,1.35-3,3-3Zm14,18H5c-1.65,0-3-1.35-3-3V10H22v8c0,1.65-1.35,3-3,3Zm-1-15.5c0-.83,.67-1.5,1.5-1.5s1.5,.67,1.5,1.5-.67,1.5-1.5,1.5-1.5-.67-1.5-1.5Zm-4,0c0-.83,.67-1.5,1.5-1.5s1.5,.67,1.5,1.5-.67,1.5-1.5,1.5-1.5-.67-1.5-1.5Zm-4,0c0-.83,.67-1.5,1.5-1.5s1.5,.67,1.5,1.5-.67,1.5-1.5,1.5-1.5-.67-1.5-1.5Z"/></svg>          
+        </span>  
+        About Us</p></button>
+        </div>
+        <p class="help" data-tippy-content="Помощь">
+        <span class="helpp"><?xml version="1.0" encoding="UTF-8"?>
+          <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="25" height="25">
+            <path d="m23.207,19.379l-8.069-8.068-1.562,1.578-5.576-5.576V3.147L2.613.049.029,2.632l3.099,5.388h4.165l5.579,5.579-1.543,1.558,8.05,8.05c.511.512,1.191.793,1.914.793s1.403-.281,1.914-.793c.511-.511.793-1.19.793-1.914s-.282-1.402-.793-1.914ZM7,7.02h-3.294L1.278,2.798l1.5-1.501,4.222,2.429v3.294Zm15.5,15.48c-.645.645-1.77.645-2.414,0l-7.346-7.347,2.402-2.425,7.358,7.357c.322.322.5.751.5,1.207s-.178.885-.5,1.207Zm-12.595-5.961l.707.707-5.955,5.955c-.532.532-1.23.798-1.929.798s-1.397-.266-1.929-.798c-1.063-1.063-1.063-2.795,0-3.858l7.493-7.493.707.707-7.493,7.493c-.673.674-.673,1.771,0,2.444.674.675,1.771.673,2.444,0l5.955-5.955Zm.137-10.013l-.848-.848c.817-3.257,3.76-5.678,7.267-5.678,1.18,0,2.317.272,3.38.811l.611.31-4.005,4.055c-.314.314-.486.729-.486,1.171s.172.857.484,1.17c.644.645,1.694.645,2.339,0l4.02-4.068.316.611c.558,1.077.841,2.235.841,3.441,0,2.657-1.393,4.99-3.482,6.322l-.727-.727c1.917-1.132,3.209-3.213,3.209-5.596,0-.811-.148-1.596-.44-2.344l-3.028,3.064c-1.037,1.037-2.72,1.035-3.755.002-.501-.501-.777-1.167-.777-1.877s.276-1.375.777-1.876l3.012-3.05c-.733-.279-1.5-.42-2.29-.42-3.252,0-5.946,2.404-6.419,5.526Z"/>
+          </svg>
+          </span>  
+        Help</p>
+        <p class="account" data-tippy-content="Ваш аккаунт">
+        <button data-target ="#linia2" data-mt-duration="1200"><span class="acc"><?xml version="1.0" encoding="UTF-8"?>
+          <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="25" height="25">
+            <path d="m8,0C4.691,0,2,2.691,2,6s2.691,6,6,6,6-2.691,6-6S11.309,0,8,0Zm0,11c-2.757,0-5-2.243-5-5S5.243,1,8,1s5,2.243,5,5-2.243,5-5,5Zm3.942,4.599c-.128.245-.431.338-.675.208-1-.528-2.129-.807-3.267-.807-3.86,0-7,3.14-7,7v1.5c0,.276-.224.5-.5.5s-.5-.224-.5-.5v-1.5c0-4.411,3.589-8,8-8,1.3,0,2.591.319,3.734.923.244.129.338.431.208.675Zm10.058-.26v-1.838c0-1.93-1.57-3.5-3.5-3.5s-3.5,1.57-3.5,3.5v1.838c-1.181.563-2,1.769-2,3.162v2c0,1.93,1.57,3.5,3.5,3.5h4c1.93,0,3.5-1.57,3.5-3.5v-2c0-1.393-.819-2.599-2-3.162Zm-6-1.838c0-1.378,1.122-2.5,2.5-2.5s2.5,1.122,2.5,2.5v1.536c-.163-.023-.33-.036-.5-.036h-4c-.17,0-.337.012-.5.036v-1.536Zm7,7c0,1.378-1.122,2.5-2.5,2.5h-4c-1.378,0-2.5-1.122-2.5-2.5v-2c0-1.378,1.122-2.5,2.5-2.5h4c1.378,0,2.5,1.122,2.5,2.5v2Zm-3.5-1c0,.552-.448,1-1,1s-1-.448-1-1,.448-1,1-1,1,.448,1,1Z"/>
+          </svg>
+          </span>
+        Account</p></button>
+        <p class="contacts" data-tippy-content="Наши контакты">
+        <span class="contact"><?xml version="1.0" encoding="UTF-8"?>
+          <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="25" height="25"><path d="m23.5,11c-.276,0-.5-.224-.5-.5,0-5.238-4.262-9.5-9.5-9.5-.276,0-.5-.224-.5-.5s.224-.5.5-.5c5.79,0,10.5,4.71,10.5,10.5,0,.276-.224.5-.5.5Zm-3.5-.5c0-3.584-2.916-6.5-6.5-6.5-.276,0-.5.224-.5.5s.224.5.5.5c3.033,0,5.5,2.467,5.5,5.5,0,.276.224.5.5.5s.5-.224.5-.5Zm2.234,11.771l.978-1.125c.508-.508.788-1.184.788-1.902s-.28-1.395-.837-1.945l-2.446-1.873c-1.048-1.048-2.753-1.049-3.803-.003l-1.532,1.494c-3.68-1.499-6.678-4.5-8.294-8.303l1.488-1.525c1.049-1.049,1.049-2.756.043-3.756l-1.959-2.543c-1.017-1.017-2.813-.993-3.78-.023l-1.174,1.024C.605,2.886,0,4.373,0,5.976c0,7.749,10.275,18.024,18.024,18.024,1.603,0,3.089-.605,4.21-1.729ZM5.909,1.446l1.959,2.543c.659.659.659,1.732-.004,2.396l-1.722,1.766c-.138.142-.18.352-.106.536,1.729,4.305,5.113,7.688,9.286,9.28.182.07.388.027.527-.108l1.766-1.722s.003-.003.004-.005c.639-.64,1.704-.681,2.44.043l2.446,1.873c.659.659.659,1.731-.023,2.416l-.979,1.125c-.908.91-2.144,1.411-3.479,1.411C10.864,23,1,13.136,1,5.976c0-1.335.501-2.571,1.387-3.456l1.175-1.025c.336-.336.779-.5,1.215-.5.419,0,.831.152,1.133.452Z"/></svg>
+          </span>  
+        Contacts</p>
+      </div>
+      <!-- <div class="logo"><img src="/png-transparent-shoe-shop-sneakers-the-shoes-stay-the-same-adidas_pixian_ai.png" width="80 px" height="80px"></div> -->
+    </header>
+    <div class="privet">
+      <h1>Men & Women shoes</h1>
+      <h2>It's your choice</h2>
+    </div>
+    <div class="swiper mySwiper" data-aos="zoom-in-up">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="https://api.meet-market.ru/storage/quill/6288aea8943de.png"></div>
+          <div class="swiper-slide"><img src="https://avatars.mds.yandex.net/get-vh/6465150/2a0000018a028cbffdb425f3480582c6f558/orig"></div>
+          <div class="swiper-slide"><img src="https://img.ixbt.site/live/topics/preview/00/04/00/47/b5daa63511.jpg"></div>
+          <div class="swiper-slide"><img src="https://rylko-shoes.by/image/catalog/muzhskie-botinki.png"></div>
+          <div class="swiper-slide"><img src="https://avatars.mds.yandex.net/get-vh/6480875/2a0000018a8c80ed27721d1f9052e587a3e9/orig"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="voting">
+        <h1>The best shoes based on voting results
+        </h1>
+      </div>
+      
+      <div class="wrapper" data-aos="flip-left"> 
+          <a href="" class="card">
+            <div class="photo"> 
+                <img src="https://static.baza.farpost.ru/v/1664234059987_bulletin" class="imgi">
+            </div>
+            <h1 class="name">
+              The best boots
+            </h1>
+            <p class="text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda earum distinctio qui eos ipsam temporibus vero, odit ducimus impedit ut aspernatur laborum error officia veniam odio? Est, quo quis. Officiis?
+            </p>
+            <div class="button">
+              Buy 120$
+            </div>
+          </a>
+      </div>
+      <div class="wrapper2" data-aos="flip-left"> 
+        <a href="" class="card2">
+          <div class="photo2"> 
+              <img src="https://upload.joomcdn.net/2334122b8405d3f57e1da13345817ffbbd5a8d1e_original.jpeg" class="imgi2">
+          </div>
+          <h1 class="name2">
+            The best boots
+          </h1>
+          <p class="text2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda earum distinctio qui eos ipsam temporibus vero, odit ducimus impedit ut aspernatur laborum error officia veniam odio? Est, quo quis. Officiis?
+          </p>
+          <div class="button2">
+            Buy 120$
+          </div>
+        </a>
+    </div>
+    <div class="wrapper3" data-aos="flip-left"> 
+      <a href="" class="card3">
+        <div class="photo3"> 
+            <img src="https://caprice-russia.ru/assets/images/blog/2%20%D0%BD%D1%83%D0%B1%D1%83%D0%BA.jpg" class="imgi3">
+        </div>
+        <h1 class="name3">
+          The best boots
+        </h1>
+        <p class="text3">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda earum distinctio qui eos ipsam temporibus vero, odit ducimus impedit ut aspernatur laborum error officia veniam odio? Est, quo quis. Officiis?
+        </p>
+        <div class="button3">
+          Buy 120$
+        </div>
+      </a>
+  </div>
+</div>
+  <div id="linia2">
+    <div class="container">
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptas deserunt assumenda beatae odit repudiandae quam mollitia quaerat vitae, voluptates excepturi, placeat rem impedit, culpa repellendus? Beatae, quam facere?</h2>
+    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic dolorum eligendi cupiditate id quis quibusdam quo deleniti, praesentium corporis totam non, aliquid eveniet quae. Perferendis facilis consequuntur quae ipsum rerum.</h2>
+    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non distinctio quasi perferendis, ab voluptate, eos explicabo necessitatibus exercitationem atque provident, quas est consectetur placeat nulla fugiat adipisci. Distinctio, veritatis perspiciatis.</h2>
+      <img src="/png-transparent-shoe-shop-sneakers-the-shoes-stay-the-same-adidas_pixian_ai.png" class="imgaaa2" width="90px" height="90px">
+  </div>
+  <form class="rega">
+      <input type="text" name="username" placeholder="логин">
+      <p>Логин должен содержать от 5 до 12 символов</p>
+      <input type="text" name="telephone" placeholder="телефон">
+      <p>Телефон должен быть введен в правильном формате (11 цифр)</p>
+
+      <input type="text" name="slug" placeholder="ссылка профиля">
+      <p>Ссылка профиля должна содержать только строчные буквы, номера и дефисы, а так же состоять из 8 символов</p> 
+
+      <input type="text" name="password" placeholder="пароль">
+      <p>Пароль должен содержать латинские буквы, цифры тоже допускается и состоять из 3 - 20 символов</p>
+  </form>
+  </div>
+</body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moveTo/1.8.2/moveTo.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="vanilla-tilt.min.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+
+  <script src="sript.js"></script>
+</html>
